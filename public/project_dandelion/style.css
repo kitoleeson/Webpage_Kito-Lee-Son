@@ -1,0 +1,263 @@
+@font-face {
+  /* font designed by Alan Dague-Greene */
+  font-family: courier;
+  src: url(/fonts/CourierPrime-Regular.ttf);
+}
+
+@font-face {
+  /* font designed by Emre Parlak */
+  font-family: major;
+  src: url(/fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+/* REGULAR TEXT */
+* {
+  font-family: courier;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-family: major;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+
+  background-image: url(images/garage-rays.jpg);
+  background-size: 100%;
+  background-position-y: center;
+
+  margin: 0px;
+  padding: 120px;
+}
+
+h2 {
+  text-transform: lowercase;
+  text-align: center;
+
+  margin: 20px 10px;
+}
+
+p {
+  text-transform: lowercase;
+  text-align: center;
+
+  margin: 20px 10px;
+}
+
+/* EMPHASIZED EXPLANATION */
+.explanation-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+  margin: 20px 0px;
+}
+
+.explanation-left {
+  text-align: left;
+  width: 50%;
+
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+.explanation-right {
+  background-color: #edb16c;
+  text-align: right;
+  /* width: calc(50% - 20px); */
+  width: 10%;
+
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+/* LINKS */
+.link-container {
+  /* format the links with each other */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  background: coral;
+
+  padding: 5px 0px;
+}
+
+.link-container > a {
+  /* format the links themselves */
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+  font-size: small;
+  font-family: major;
+  text-align: center;
+
+  box-sizing: border-box;
+  background: coral;
+
+  margin: 0px 5px;
+  padding: 5px 10px;
+}
+
+.link-container > a:hover {
+  background: brown;
+}
+
+/* BLOG POST */
+.artist {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.blog_title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.blog_title > * {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.blog_title > h3 {
+  font-size: large;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.artist > h3 {
+  font-size: large;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px 0px 0px 15px;
+}
+
+.blog_title > h2 {
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+}
+
+.blog_post {
+  /* background-color: #edb16c; */
+
+  margin: 50px 10px;
+  padding: 15px;
+}
+
+.blog_post > h2 {
+  text-align: left;
+  margin: 0px;
+}
+
+.songdescription > p {
+  padding: 10px;
+}
+
+.songdescription {
+  width: calc(100% - 300px);
+}
+
+.combo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px 0px 0px 0px;
+}
+
+/* BANDS */
+.band {
+  font-weight: 100;
+  font-family: major;
+  text-align: justify;
+  font-size: 12px;
+  height: 1em;
+  padding: 0px 10px;
+  margin: 30px 0px;
+}
+
+.trickster {
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+}
+
+/* STAIRCASE HEADERS */
+.staircase {
+  color: coral;
+  margin: 20px 400px;
+}
+
+.stair1 {
+  text-align: left;
+}
+.stair2 {
+  text-align: center;
+}
+.stair3 {
+  text-align: right;
+}
+
+/* SLIDESHOW */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.dots {
+  text-align: center;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0px 0px;
+  background-color: coral;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-active {
+  background-color: white;
+}

@@ -1,0 +1,88 @@
+@font-face {
+  /* font designed by Alan Dague-Greene */
+  font-family: courier;
+  src: url(/fonts/CourierPrime-Regular.ttf);
+}
+
+@font-face {
+  /* font designed by Emre Parlak */
+  font-family: major;
+  src: url(/fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+  /* font designed by Juan Pablo del Peral & Huerta Tipográfica */
+  font-family: alegreya;
+  src: url(/fonts/Alegreya-Regular.ttf);
+}
+
+body {
+  background-color: #444c57;
+
+  padding: 2% 5%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: major;
+  text-align: center;
+
+  color: white;
+
+  margin: 0px;
+  padding: 0.5em;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-flow: column nowrap;
+
+  margin: 20px 0px;
+}
+
+label {
+  font-size: large;
+  font-family: major;
+  text-transform: lowercase;
+
+  color: aliceblue;
+
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: aliceblue;
+  height: 2em;
+
+  font-family: alegreya;
+  font-size: medium;
+}
+
+img {
+  width: 12%;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+textarea {
+  background-color: aliceblue;
+  resize: vertical;
+
+  font-family: alegreya;
+  font-size: medium;
+}
+
+button {
+  background-color: #c8d2d8;
+  width: 100%;
+  height: 3em;
+
+  font-family: major;
+  font-size: large;
+  text-transform: lowercase;
+}
+
+button:hover {
+  background-color: aliceblue;
+}

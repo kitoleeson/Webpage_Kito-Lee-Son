@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kito Lee Son</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      /* 
+      // initialize success, error, and options variables
+      const geo_onSuccess = async (position) => {
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+        console.log(`Your current coordinates: ${lat}, ${lon}`);
+        const data = { lat, lon };
+        const options = {
+          method: 'POST',
+          body: JSON.stringify(data),
+          headers: {
+            'Content-Type': 'application/JSON',
+          },
+        };
+        const response = await fetch('/coords', options);
+        const json = await response.json();
+        console.log(json);
+      };
+      const geo_onError = (error) => console.error(error);
+      const geo_options = { enableHighAccuracy: true };
+
+      // perform geolocation
+      if ('geolocation' in navigator) {
+        console.log('geolocation available');
+        navigator.geolocation.getCurrentPosition(
+          geo_onSuccess,
+          geo_onError,
+          geo_options
+        );
+      } else console.log('geolocation not available');
+      */
+    </script>
+    <h1>kito lee son</h1>
+    <div class="link-container">
+      <a href="/">home</a>
+      <a href="/trinidad_blog">blog</a>
+      <a href="/project_dandelion">project dandelion</a>
+      <a href="/musical_works">musical works</a>
+    </div>
+    <p>
+      my name is kito lee son. welcome to my webpage. a collection of the
+      highlights of many different aspects of my life including: my travels, my
+      projects, my stories and much more. this page will continue to grow with
+      me. to be honest, i don't have much of a plan here. i simply have an array
+      of ideas for which i thought it would be useful to condense them into one
+      space in order to more easily share and keep track of them. i hope you
+      enjoy what you find.
+      <span class="trickster"></span>
+    </p>
+  </body>
+</html>

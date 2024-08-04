@@ -1,0 +1,92 @@
+@font-face {
+  /* font designed by Alan Dague-Greene */
+  font-family: courier;
+  src: url(/fonts/CourierPrime-Regular.ttf);
+}
+
+@font-face {
+  /* font designed by Emre Parlak */
+  font-family: major;
+  src: url(/fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+  /* font designed by Juan Pablo del Peral & Huerta Tipográfica */
+  font-family: alegreya;
+  src: url(/fonts/Alegreya-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+}
+
+/* REGULAR TEXT */
+* {
+  font-family: courier;
+}
+
+h1 {
+  color: white;
+  font-family: major;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  display: block;
+  max-height: 75vh;
+
+  background-image: url(images/cypress.jpg);
+  background-size: cover;
+  background-position-y: top;
+  background-repeat: no-repeat;
+
+  margin: 0px;
+  padding: 40vh 0px;
+}
+
+h2 {
+  text-transform: lowercase;
+
+  margin: 20px 10px;
+}
+
+p {
+  text-transform: lowercase;
+  text-align: justify;
+
+  margin: 15px 10px 0px 10px;
+}
+
+.trickster {
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+}
+
+/* LINKS */
+.link-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  background: coral;
+
+  padding: 5px 0px;
+}
+
+.link-container > a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+  font-size: small;
+  font-family: major;
+  text-align: center;
+
+  box-sizing: border-box;
+  background: coral;
+
+  margin: 0px 5px;
+  padding: 5px 10px;
+}
+
+.link-container > a:hover {
+  background: brown;
+}

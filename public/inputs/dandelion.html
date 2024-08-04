@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Dandelion Post</title>
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <h1>Project Dandelion Post</h1>
+    <form
+      id="input-form"
+      method="POST"
+      enctype="multipart/form-data"
+      action="/new_post"
+    >
+      <div class="input-group">
+        <label for="title">Song Title</label>
+        <input type="text" id="title" name="title" placeholder="Saturn" />
+      </div>
+      <div class="input-group">
+        <label for="artist">Artist</label>
+        <input
+          type="text"
+          id="artist"
+          name="artist"
+          placeholder="Sleeping At Last"
+        />
+      </div>
+      <div class="input-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" />
+      </div>
+      <div class="input-group">
+        <label for="description">Description Content</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="12"
+          cols="65"
+          placeholder="test"
+        ></textarea>
+      </div>
+      <div class="input-group">
+        <label for="images">Album Photo</label>
+        <input type="file" name="images" id="images" multiple />
+        <div id="displayed-images"></div>
+      </div>
+      <button type="submit">Post</button>
+    </form>
+    <script src="inputs.js"></script>
+  </body>
+</html>

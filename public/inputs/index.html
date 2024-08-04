@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Inputs</title>
+    <style>
+      @font-face {
+        /* font designed by Emre Parlak */
+        font-family: major;
+        src: url(../fonts/MajorMonoDisplay-Regular.ttf);
+      }
+
+      h1 {
+        text-transform: uppercase;
+        font-family: major;
+        text-align: center;
+
+        background-color: #444c57;
+        color: white;
+
+        margin: 0px;
+        padding: 1em;
+        margin-bottom: 10px;
+      }
+
+      #imageContainer {
+        display: flex;
+        height: 100vh;
+      }
+
+      .image {
+        flex: 1;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      #imageContainer .image + .image {
+        margin-left: 10px; /* Adjust the spacing as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Blog Inputs</h1>
+    <div id="imageContainer">
+      <div class="image">
+        <a href="blog.html">
+          <img src="../images/panyard-sunset.jpg" alt="Panyard Sunset" />
+        </a>
+      </div>
+      <div class="image">
+        <a href="dandelion.html">
+          <img src="../images/dandelion-cover.jpg" alt="Dandelions" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
