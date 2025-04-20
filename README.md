@@ -31,6 +31,7 @@ A downloadable and interactive version of my resumes — perfect for sharing wit
 
 ## 🌐 Live Site
 The website is hosted on Render's free server service at: https://kitos-webpage.onrender.com
+> Since I am using the free service, it may take a minute to load the website
 
 ## 📌 Future Additions
 
