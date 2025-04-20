@@ -35,6 +35,7 @@ The website is hosted on Render's free server service at: https://kitos-webpage.
 ## 📌 Future Additions
 
 - Auto-building Project Dandelion and Blog pages from database ✅
+- Sideways scrolling bands on Project Dandelion page in between posts ✅
 - Interactive music player for Project Dandelion ❌
 - Embedded audio for musical works ❌
 - Filterable coding project archive ❌
