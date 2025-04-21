@@ -25,7 +25,7 @@ A downloadable and interactive version of my resumes — perfect for sharing wit
 
 ## 🛠 Tech Stack
 
-- **Frontend:** HTML / CSS / JavaScript
+- **Frontend:** JavaScript / HTML / CSS
 - **Backend:** Node.js / Express / NeDB
 - **Hosting:** Render
 
